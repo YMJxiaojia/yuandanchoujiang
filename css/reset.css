@@ -1,0 +1,56 @@
+@charset "utf-8";
+*{-webkit-box-sizing: border-box;box-sizing: border-box;}
+*:before,*:after{-webkit-box-sizing: border-box;box-sizing: border-box;}
+::-webkit-scrollbar {width: 6px;border-radius: 3px;background: transparent;}
+::-webkit-scrollbar-thumb {border-radius: 3px;background: #c7c7c7;border:1px solid #b2b2b2;}
+footer,header,main,nav,article,section,aside,dialog,figcaption,figure,details{display:block;}
+main{position: relative;}
+dialog,iframe{margin: 0;padding: 0;width: 100%;border:none;}
+html{-webkit-text-size-adjust:100%;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);height: 100%;}
+body{background-color:#f9f9f9;color:#333;font:14px/1.5 arial,"Microsoft Yahei","Hiragino Sans GB",sans-serif;min-height: 100%;margin:0;}
+b,strong{font-weight:bold;}
+em,i,var{font-style: normal;}
+mark{background-color: transparent;}
+small{font-size:80%;}
+img{border:0;vertical-align:middle;}
+form{margin:0;}
+button,input,select,textarea{
+  margin:0;padding: 0;border:1px solid #ccc;outline: none;vertical-align:baseline;font-size:100%;
+  border-radius: 4px;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus{
+  outline: 0;
+}
+button,input{line-height:normal;}
+select{background-color: #fff;}
+button,html input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}
+textarea{overflow:auto;vertical-align:top;resize:none;}
+table{width: 100%;border-collapse:collapse;border-spacing:0;}
+td{padding: 0;}
+th{padding: 0;text-align: left;font-weight: normal;}
+h1,h2,h3,h4,h5,h6,p{margin: 0;font-weight: normal;font-size: 100%;}
+ul,ol{margin: 0;padding: 0;list-style: none;}
+dl,dd{margin: 0;}
+a{color:#333;text-decoration:none}
+a:link,a:visited,a:active,a:hover{outline:0;color: #333;text-decoration:none}
+
+
+/*function*/
+.f-cb:before,.f-cb:after{display:table;content:"";line-height:0;}
+.f-cb:after{clear:both;}
+.f-fl{float: left;}
+.f-fr{float: right;}
+.f-ib{display: inline-block;}
+.f-tal{text-align:left;}
+.f-tac{text-align:center;}
+.f-tar{text-align:right;}
+.f-vam{vertical-align: middle;}
+.f-oh{overflow:hidden;}
+.f-dn{display: none;}
+.f-fw{font-weight: 400;}
+
+
